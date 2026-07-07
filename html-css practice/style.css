@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #d5ff40;
+}
+nav{
+    margin: 20px 15px;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.part2{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    font-size: large;
+    padding-right: 20px ;
+    fill-opacity: inherit;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    padding: 25px 60px;
+
+}
+
+section .hero-text1{
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   font-size: 50px;
+   font-weight: 900;
+}
+
+section .hero-text2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 400px;
+}
+section .hero-text2 h1{
+    font-size: 90px;
+}
+section .hero-text1 .video{
+    height: 70px;
+    width: 300px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 30px;
+    background-image: url(./shubham-dhage-AzKnjOs3xNk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+}
+.play-large-fill{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 90px;
+    color: white;
+
+}
+
+
+
+.image{
+    background-image:url(https://plus.unsplash.com/premium_photo-1670768401507-e8728452f98d?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+     height: 600px;
+    width: 90%;
+    margin: 60px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-size: cover;
+}
