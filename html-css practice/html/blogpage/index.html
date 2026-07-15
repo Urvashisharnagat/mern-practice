@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tech Journal | Semantic HTML Example</title>
+</head>
+<body>
+
+    <!-- HEADER: Contains global branding, logo, and main navigation -->
+    <header>
+        <h1>The Tech Journal</h1>
+        <p>Your daily dose of web development insights</p>
+        
+        <!-- NAV: Marks the primary navigation links -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN: Wraps the unique, dominant content of this specific page -->
+    <main>
+
+        <!-- SECTION: Grouping of related article content -->
+        <section id="articles">
+            <h2>Featured Content</h2>
+
+            <!-- ARTICLE: A self-contained, reusable post -->
+            <article>
+                <header>
+                    <h3>Understanding Semantic HTML</h3>
+                    <p>Published on: <time datetime="2026-07-15">July 15, 2026</time></p>
+                </header>
+                
+                <p>Writing semantic code improves accessibility and SEO. It helps browsers and screen readers understand your page structure instantly.</p>
+                
+                <p>For example, important terms can be highlighted using the <mark>mark tag</mark> to draw immediate attention.</p>
+
+                <!-- FIGURE & FIGCAPTION: Encapsulates media and its description -->
+                <figure>
+                    <img src="semantic-map.png" alt="Diagram showing header, main, and footer layout blocks" width="400">
+                    <figcaption>Figure 1: Visual layout hierarchy of standard HTML5 semantic elements.</figcaption>
+                </figure>
+
+                <footer>
+                    <p>Tags: Web Dev, HTML5, Accessibility</p>
+                </footer>
+            </article>
+
+            <!-- ARTICLE: A second independent post -->
+            <article>
+                <header>
+                    <h3>The Future of CSS Grid</h3>
+                    <p>Published on: <time datetime="2026-07-10">July 10, 2026</time></p>
+                </header>
+                <p>Grid layouts have revolutionized frontend design, making complex structures highly responsive without heavy frameworks.</p>
+                <footer>
+                    <p>Tags: CSS, Web Design</p>
+                </footer>
+            </article>
+
+        </section>
+
+        <!-- ASIDE: Content tangentially related to the main content (Sidebar) -->
+        <aside>
+            <h3>About the Author</h3>
+            <p>Alex is a frontend engineer passionate about clean code, open-source tools, and digital accessibility.</p>
+            
+            <h3>Newsletter</h3>
+            <p>Sign up to receive our weekly development tips directly in your inbox.</p>
+        </aside>
+
+    </main>
+
+    <!-- FOOTER: End-of-page disclosures, copyright, and meta links -->
+    <footer>
+        <p>&copy; 2026 The Tech Journal. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>

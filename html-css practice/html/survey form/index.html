@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <form action="/submit-survey">
+        <fieldset>
+            <legend>Favorite Progrraming language</legend>
+
+            <label>
+                <input type="radio" id="language" name="language" value="javascript">
+                Javascript
+            </label><br>
+
+            <label>
+                <input type="radio" id="language" name="language" value="java">
+                Java
+            </label><br>
+
+            <label>
+                <input type="radio" id="language" name="language" value="python">
+                Python
+            </label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Intrest Areas</legend>
+
+            <label>
+                <input type="checkbox" id="interest" name="interest" value="web">
+                Web
+            </label><br>
+
+            <label>
+                <input type="checkbox" id="interest" name="interest" value="data">
+                Data
+            </label><br>
+
+            <label>
+                <input type="checkbox" id="interest" name="interest" value="degine">
+                Degine
+            </label><br>
+        </fieldset><br>
+
+        <label for="comments">Comments :</label>
+        <textarea name="comment" id="comment" rows="5" cols="40" placeholder="share your thoughts"></textarea><br>
+
+        <label for="experience-level"> Experience level</label>
+        <select name="experience" id="experience">
+            <option value="biggner">Biggner</option>
+            <option value="intermidiate">Intermidiate</option>
+            <option value="advance">Advance</option>
+            <option value="expert">Expert</option>
+        </select><br>
+
+        <label for="satisaction">Satisfaction :</label>
+        <input type="range" id="satisfaction" name="satisfaction" min="0" max="10" value="5">
+    </form>
+</body>
+</html>
